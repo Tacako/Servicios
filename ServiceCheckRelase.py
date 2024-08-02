@@ -13,7 +13,7 @@ def find_and_click(image_path, confidence=0.7):
 
 def send_whatsapp_message(counter):
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    message = f"*TEST SERVICO EN PLATAFORMA*\nFecha y hora: {current_time}\nNumero de Notificaciones: {counter}"
+    message = f"*SERVICO EN PLATAFORMA*\nFecha y hora: {current_time}\nNumero de Notificaciones: {counter}"
     pyautogui.typewrite(message)
     pyautogui.press('enter')
 
