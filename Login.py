@@ -11,12 +11,13 @@ def find_and_click(image_path, confidence=0.8):
     return False
 
 def handle_login():
-    if find_and_click('Resources/LoginPlataform.png') or find_and_click('Resources/LoginPlataform2.png') or find_and_click('Resources/LoginPlataform6.png.png') or find_and_click('Resources/LoginPlataform7.png.png') or find_and_click('Resources/LoginPlataform8.png.png'):
+    if find_and_click('Resources/Login.png') or find_and_click('Resources/LoginCaducado.png'):
         time.sleep(2)
         find_and_click('Resources/Confirm.png')
         time.sleep(2)
         find_and_click('Resources/Seguimineto.png')
-
+    elif find_and_click('Resources/Indicadores.png'):
+        find_and_click('Resources/Seguimineto.png')
 
 counter = 0
 while True:
