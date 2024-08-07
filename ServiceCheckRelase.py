@@ -23,7 +23,7 @@ counter = 0
 while True:
     time.sleep(1)
     try:
-        no_ace_image = pyautogui.locateOnScreen('Resources/noace.png', confidence=0.7)
+        no_ace_image = pyautogui.locateOnScreen('Resources/noace.png')
         if no_ace_image:
             print(pyautogui.center(no_ace_image))
 
