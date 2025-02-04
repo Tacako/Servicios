@@ -1,6 +1,6 @@
 Servicios
 =
-### Aplicación para AGRUCQRO
+### Aplicación
 
 ---
 #### Funcionamiento
